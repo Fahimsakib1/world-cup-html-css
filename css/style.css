@@ -7,6 +7,8 @@ body{
 }
 
 
+
+
 /* Top Section CSS Starts From Here */
 
 .top-section{
@@ -62,6 +64,8 @@ body{
     margin-top: 30px;
 }
 
+
+
 /* Top Section Transition Style CSS Starts From Here */
 .top-section-div2 img:hover{
     background-image: url(../assets/champion.jpg);
@@ -75,6 +79,8 @@ body{
     transform: translate(50px) scale(1.5);
 
  }
+
+
 
 
 /* Middle Section CSS Starts From Here */
@@ -133,7 +139,6 @@ body{
     border: none;
     border-radius: 10px;
     padding-left: 45px;
-    /* padding-right: 125px; */
     padding-right: 90px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -203,6 +208,8 @@ body{
 }
 
 
+
+
 /* View All Button Section CSS Starts From Here */
 
 .view-all-button{
@@ -220,6 +227,8 @@ body{
     margin-bottom: 70px;
 
 }
+
+
 
 
 /* Footer Section CSS Starts From Here */
@@ -305,6 +314,10 @@ footer{
  .fa-youtube:hover{
     color: #CD201F;
  }
+
+
+
+
 
 
 
@@ -404,7 +417,7 @@ footer{
     .middle-section-button1{
         margin-bottom: 0px;
     }
-    
+
 
     .middle-section-div2{
         margin-left: 120px;
@@ -460,6 +473,8 @@ footer{
 
 
 
+
+
  /* -------------------------------------
   Responsive Website Design For Tablet Devices (Considered Screen Size Minimum 481px To Maximum 768px)
  ------------------------------------- */
@@ -473,9 +488,6 @@ footer{
     
     
     .middle-section-div1{
-        /* background-color: white;
-        margin-top: 15px; */
-
         background-color: white;
         margin-top: 15px;
         width: 1200px;
@@ -546,6 +558,15 @@ footer{
         width: 1400px;
     }
 
+    #footer-contact-us, #footer-terms-of-service, #footer-priavcy-policy, #footer-priavcy-settings{
+        margin-left: 170px;
+    }
+
+    #footer-goal-app{
+        margin-left: 550px;
+    }
+
+
  }
 
 
@@ -588,7 +609,14 @@ footer{
     .middle-section-div1{
         width: 270px;
     }
+
+    .copyright a{
+        margin-left: 105px;
+    }
+
 }
+
+
 
 
 /* -------------------------------------
@@ -610,8 +638,19 @@ footer{
         width: 50%;
     }
 
+    .copyright {
+        margin-left: 10px;
+    }
+
+    .copyright a{
+        margin-left: 85px;
+    }
+
+    
+
 
  }
+
 
 
  /* -------------------------------------
@@ -632,9 +671,6 @@ footer{
         margin-left: 70px;
         width: 50%;
     }
-
-
-
 
     .top-section{
         width: fit-content;
@@ -661,6 +697,11 @@ footer{
         margin-bottom: 35px;
         padding-bottom: 20px;
         padding-left: 10px;
+    }
+
+
+    .copyright a{
+        margin-left: 200px;
     }
     
  }

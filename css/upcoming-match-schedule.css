@@ -6,6 +6,8 @@ body{
     background-color: #FFFF;
 }
 
+
+
 /* Top Section CSS Starts From Here */
 
 .top-section{
@@ -62,7 +64,6 @@ body{
 }
 
 
-
 /* Top Section Transition Style CSS Starts From Here */
 .top-section-div2 img:hover{
     background-image: url(../assets/champion.jpg);
@@ -76,7 +77,6 @@ body{
     transform: translate(50px) scale(1.5);
 
  }
-
 
 
 /* Middle Section CSS Starts From Here */
@@ -231,11 +231,6 @@ body{
 
 
 
-
-
-
-
-
 /* Footer Section CSS Starts From Here */
 
 footer{
@@ -333,7 +328,148 @@ footer{
         display: none;
     }
 
+    .top-section{
+        display: block;
+        background-color: #161616;
+        width: 970px;
+        height: 1300px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .top-section-div1, .top-section-div2{
+        width: 80%;
+    }
+
+    .top-section-div1 h1{
+        font-size: 70px;
+        color: #FFFF;
+        margin-left: 100px;
+        padding-top: 90px;
+    
+    }
+
+    .top-section-div1 p{
+        font-size: 16px;
+        color: rgb(159, 157, 157);
+        margin-top: -50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 60px;
+        margin-bottom: 30px;
+    
+    }
+
+    .top-section-button{
+        margin-top: 10px;
+        margin-left: 350px;
+    }
+
+
+    .top-section-div2 img{
+        width: 600px;
+        height: 825px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+
+    .top-section-div2 img:hover{
+        margin-top: 180px;
+        margin-left: 210px;
+     }
+
+     .middle-section{
+        display: block;
+    }
+    
+    
+    .middle-section-div1{
+        display: inline;
+        width: 100%;
+        background-color: white;
+        margin-top: 15px;
+        width: 1200px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        
+    }
+
+    .middle-section-buttons{
+        margin-left: 300px;
+        width: 100%;
+    }
+
+    .middle-section-button1, .middle-section-button2, .middle-section-button3{
+        border: 2px solid rgb(177, 171, 171);
+        border-radius: 10px;
+        margin-top: 30px;
+        padding-left: 10px;
+        width: 80%;
+       
+    }
+
+    .middle-section-button1{
+        margin-bottom: 0px;
+    }
+
+
+    .middle-section-div2{
+        margin-left: 120px;
+    }
+
+    .middle-section-match-schedule{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 40px;
+        margin-top: 130px;
+        margin-left: 235px;
+    }
+
+    .individual-match{
+        margin-bottom: 40px;
+    }
+
+    .footer-section{
+        width: 1000px;
+        height: 900px;
+        margin-top: -50px;
+    }
+
+    .copyright a{
+        display: block;
+        margin-left: 430px;
+        padding-top: 50px;
+    }
+
+    #footer-contact-us{
+        margin-left: 435px;
+    }
+
+
+    #footer-terms-of-service{
+        margin-left: 415px;
+    }
+    #footer-priavcy-settings{
+        margin-left: 420px;
+    }
+
+    #footer-goal-app{
+        margin-left: 445px;
+    }
+
+    #footer-goal-live{
+        margin-left: 445px;
+    }
+
+
+
 }
+
+
 
 
 
@@ -351,9 +487,6 @@ footer{
     
     
     .middle-section-div1{
-        /* background-color: white;
-        margin-top: 15px; */
-
         background-color: white;
         margin-top: 15px;
         width: 1200px;
@@ -420,7 +553,17 @@ footer{
         width: 1400px;
     }
 
+    #footer-contact-us, #footer-terms-of-service, #footer-priavcy-policy, #footer-priavcy-settings{
+        margin-left: 170px;
+    }
+
+    #footer-goal-app{
+        margin-left: 550px;
+    }
+
  }
+
+
 
 
 
@@ -462,6 +605,9 @@ footer{
 }
 
 
+
+
+
 /* -------------------------------------
   Responsive Website Design For Extra Large Devices (Considered Screen Size more than 1201px)
  ------------------------------------- */
@@ -481,8 +627,19 @@ footer{
         width: 50%;
     }
 
+    .copyright {
+        margin-left: 10px;
+    }
+
+    .copyright a{
+        margin-left: 85px;
+    }
+
+
 
  }
+
+
 
 
  /* -------------------------------------
@@ -504,9 +661,6 @@ footer{
         width: 50%;
     }
 
-
-
-
     .top-section{
         width: fit-content;
     }
@@ -516,30 +670,8 @@ footer{
         width: 1610px;
     }
 
-    /* .middle-section-div2 img{
-        width: 420px;
-        height: 355px; 
-        border-radius: 10px;
-    } */
-
-
-    /* .flag1-div{
-        width: 420px;
-        height: 355px;
-        border-radius: 10px;
-
-    }
-
-    .flag2-div{
-        width: 420px;
-        height: 355px;
-        border-radius: 10px;
-
-    } */
-
 
     .individual-match{
-        /* width: 420px; */
         width: 350px;
         height: 250px;
         border-radius: 10px;
@@ -549,5 +681,10 @@ footer{
         padding-bottom: 20px;
         padding-left: 70px;
     }
+
+    .copyright a{
+        margin-left: 200px;
+    }
+    
     
  }
