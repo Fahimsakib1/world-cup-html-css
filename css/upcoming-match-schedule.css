@@ -8,7 +8,7 @@ body{
 
 
 
-/* Top Section CSS Starts From Here */
+/* Top Section CSS For Website 2 Starts From Here */
 
 .top-section{
     background-color: #161616;
@@ -64,7 +64,8 @@ body{
 }
 
 
-/* Top Section Transition Style CSS Starts From Here */
+/* Top Section Transition Style For Website 2 CSS Starts From Here */
+
 .top-section-div2 img:hover{
     background-image: url(../assets/champion.jpg);
     width: 60%;
@@ -79,7 +80,7 @@ body{
  }
 
 
-/* Middle Section CSS Starts From Here */
+/* Middle Section CSS For Website 2 Starts From Here */
 
 .middle-section{
     display: flex;
@@ -231,7 +232,7 @@ body{
 
 
 
-/* Footer Section CSS Starts From Here */
+/* Footer Section For Website 2 CSS Starts From Here */
 
 footer{
     background-color: black;
@@ -290,7 +291,7 @@ footer{
     margin-left: 20px;
  }
 
- .fa-facebook,  .fa-instagram, .fa-twitter, .fa-youtube  {
+ .fa-linkedin,  .fa-instagram, .fa-twitter, .fa-youtube  {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
@@ -299,9 +300,10 @@ footer{
     background-color: #201f39;
  }
 
- .fa-facebook:hover{
-    color: #1877F2;
+ .fa-linkedin:hover{
+    color: #0A66C2;
  }
+
 
  .fa-instagram:hover{
     color: #E4405F;
@@ -322,6 +324,7 @@ footer{
  /* -------------------------------------
   Responsive Website Design For Mobile Devices (Considered Screen Size upto 480px)
  ------------------------------------- */
+
  @media only screen and (min-width: 1px) and (max-width: 480px) {
     
     .view-all-button{
@@ -399,8 +402,8 @@ footer{
     }
 
     .middle-section-buttons{
-        margin-left: 300px;
-        width: 100%;
+        margin-left: 335px;
+        width: 95%;
     }
 
     .middle-section-button1, .middle-section-button2, .middle-section-button3{
@@ -426,11 +429,12 @@ footer{
         grid-template-columns: repeat(1,1fr);
         grid-column-gap: 40px;
         margin-top: 90px;
-        margin-left: 255px;
+        margin-left: 250px;
     }
 
     .individual-match{
         margin-bottom: 40px;
+        width: 290px
     }
 
     .footer-section{
@@ -581,7 +585,6 @@ footer{
     }
 
     .middle-section-buttons{
-        /* width: 270px; */
         height: 250px;
         background-color: #161616;
         border-radius: 10px;
