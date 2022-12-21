@@ -80,6 +80,21 @@ body{
 
  }
 
+ .top-section-div1 h1:hover .top-section-div1-span{
+    color: red;
+
+ }
+ .top-section-button:hover{
+    background-color: blue;
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 8px;
+    transform: scale(1.1);
+
+ }
+
+
 
 
 
@@ -100,6 +115,7 @@ body{
 }
 
 .middle-section-button1{
+
     margin-top: 25px;
     margin-left: 30px;
     font-size: 17px;
@@ -117,6 +133,7 @@ body{
 
 
 .middle-section-button2{
+    
     margin-top: -17px;
     margin-left: 32px;
     font-size: 17px;
@@ -131,6 +148,7 @@ body{
 }
 
 .middle-section-button3{
+    
     margin-top: 17px;
     margin-left: 32px;
     font-size: 17px;
@@ -206,6 +224,16 @@ body{
 .icon-and-all{
     color: #817f7f;
 }
+
+
+ /* Middle Section transition CSS Starts From Here */
+ .individual-player-photo:hover{
+    transform: scale(1.1);
+    transition: transform 3s linear;
+    /* border: 2px solid rgb(80, 65, 249); */
+    box-shadow: 10px 10px 30px rgb(80, 65, 249);
+    margin-bottom: 50px;
+ }
 
 
 
@@ -483,6 +511,10 @@ footer{
  ------------------------------------- */
 
  @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .top-section-button{
+        margin-left: 12px;
+    }
     
    
     .middle-section{
@@ -562,6 +594,11 @@ footer{
 
     #footer-goal-app{
         margin-left: 550px;
+    }
+
+    #last-individual-player-photo{
+        display: none;
+
     }
 
 
